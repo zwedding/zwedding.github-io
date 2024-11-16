@@ -7,7 +7,8 @@ description: > # your text below (remove <br /> elements if you don't need line 
   In partial fulfillment of the requirements for the degree of
   Bachelor of Science in Cybersecurity (class of 2025)
   <br /><br />
-  <a href="/pdf/Zachary Wedding Resume.pdf?raw=true">View My Resume</a>
+  <a href="/pdf/Zachary%20Wedding%20Resume.pdf" target="_blank">View My Resume</a>
+repository: "zwedding/zwedding.github.io"
 github_username:  zwedding # update with your username
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
