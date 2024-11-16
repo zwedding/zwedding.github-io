@@ -31,20 +31,20 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [Computer Architecture Ethics Paper](/pdf/Ethics Paper CA.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class:** CSCI 330 Computer Architecture
+-   **Grade:** A
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Object-Oriented Ethics Paper](/pdf/Ethics Paper OOP.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:** CSCI 325 Object-Oriented Programming
+-   **Grade:** A
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Survey of Scripting Ethics Paper](/pdf/Ethics Paper Scripting.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:** CSCI 301 Survey of Scripting Languages
+-   **Grade:** A
 
 ---
 
