@@ -3,7 +3,7 @@
 UDP Pinger
 ===============
 
--   **Class:** CSCI 332
+-   **Class:** CSCI 332 Applied Networking
 -   **Grade:** A
 -   **Language(s):** Python
 -   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
