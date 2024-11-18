@@ -14,7 +14,7 @@ Programming Projects
 ---
 ### [Overlap Coverage | CSCI 315](project2)
 
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 2 Thumbnail Name](images/large50-timings-1.png)
 
 ---
 ### [UDP Pinger | CSCI 332](project3)
