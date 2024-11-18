@@ -3,32 +3,26 @@
 HTML Parser
 ===============
 
--   **Class:** CSCI 315
+-   **Class:** CSCI 325 Object-Oriented Programming
 -   **Grade:** B
--   **Language(s):** C++
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Language(s):** Java
+-   **Source Code Repository:** (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I worked with a partner on this project. We came up with the idea to simulate a tennis match. When the program starts, the first player must choose heads or tails to see who is serving first. After the server is decided, they get to decide how hard the serve it (between a difficulty of 1 and 3). The harder they serve it, the more likely they are to mess up the serve. However, if they do not mess up the serve, it is then harder for the other player to return. After the intial serves, the players return the ball in a very similar fashion until someone messes up. The simulator goes by farily basic tennis rules (first to 60 wins the set, best of three sets).
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
-
 ```bash
 cd ./project
-python setup.py
+javac TennisGame.java
+java TennisGame.java
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
-
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+The program includes five different class (AwardPoint, Return, ScoreBoard, StartOfGame, and TennisGame). The AwardPoint class decides which player to award a point to based on which player hit the ball out of bounds. The Return class deals with returning the serve and returning other returns. After the difficulty of the return is decided, it is determined whether this return will be in bounds or picking a random number. The harder the difficulty of the serve, the smaller chance the return has of being successful. The difficulty of the previous return also factors into whether the current return will be successful or not. The harder the previous return, the more difficult it will be for the current return to be successful. The ScoreBoard class displays the scoreboard and determines when a set or match is over by the point values and who won the match or set. The StartOfGame class does the initial coin flip to see who serves first as well as the initial serve. Lastly, the TennisGame class ties all of these other classes together to make the program function.
 
 ![screenshot](images/dummy_thumbnail.jpg)  
 Fig 1. The launch screen
