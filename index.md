@@ -24,7 +24,7 @@ Programming Projects
 ---
 ### [Data Analysis and Visualization | CSCI 409](project4)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 4 Thumbnail Name](images/VehicleTrends.png)
 
 ---
 
