@@ -10,7 +10,7 @@ Data Analysis and Visualization
 
 ## Project description
 
-This project looks at data from three different angles. The data at hand is about vehicle registrations from the 1900 to 2020. The data is separated by state and type of vehicle (auto, bus, truck, motorcycle). The angles that I decided to view the data from include the overall vehicle trends from 1900 to 2020, total vehicle registrations by state in 2020, and the proportion of motorcycle registrations by state from 2000 to 2020.
+This project looks at data from three different angles. The data at hand is about vehicle registrations from 1900 to 2020. The data is separated by state and type of vehicle (auto, bus, truck, motorcycle). The angles that I decided to view the data from include the overall vehicle trends from 1900 to 2020, total vehicle registrations by state in 2020, and the proportion of motorcycle registrations by state from 2000 to 2020.
 
 ## How to run the program
 
@@ -31,14 +31,14 @@ The MotorcycleProportions.py program then filters only data from 2000 to 2020, c
 
 The VehicleTrends.py program then sums the total number of vehicle registrations by vehicle every year and plots this number on a line graph.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/2020Registrations.png)  
+Fig 1. 2020 registrations
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/MotorcycleProportions.png)  
+Fig 2. Motorcycle proportions
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/VehicleTrends.png)  
+Fig 3. Vehicle trends
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
