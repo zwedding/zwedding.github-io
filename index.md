@@ -9,7 +9,7 @@ Programming Projects
 ---
 ### [Tennis Game | CSCI 325](project1)
 
-![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 1 Thumbnail Name](images/TennisGame1.png)
 
 ---
 ### [Overlap Coverage | CSCI 315](project2)
