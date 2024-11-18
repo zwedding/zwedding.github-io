@@ -24,14 +24,14 @@ java TennisGame.java
 
 The program includes five different class (AwardPoint, Return, ScoreBoard, StartOfGame, and TennisGame). The AwardPoint class decides which player to award a point to based on which player hit the ball out of bounds. The Return class deals with returning the serve and returning other returns. After the difficulty of the return is decided, it is determined whether this return will be in bounds or picking a random number. The harder the difficulty of the serve, the smaller chance the return has of being successful. The difficulty of the previous return also factors into whether the current return will be successful or not. The harder the previous return, the more difficult it will be for the current return to be successful. The ScoreBoard class displays the scoreboard and determines when a set or match is over by the point values and who won the match or set. The StartOfGame class does the initial coin flip to see who serves first as well as the initial serve. Lastly, the TennisGame class ties all of these other classes together to make the program function.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+![screenshot](images/TennisGame1.png)  
+Fig 1. A serve a point played out
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+![screenshot](images/TennisGame2.png)  
+Fig 2. Winner of a set
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/TennisGame3.png)  
+Fig 3. Winner of a match
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
