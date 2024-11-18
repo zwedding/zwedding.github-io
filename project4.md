@@ -3,7 +3,7 @@
 Data Analysis and Visualization
 ===============
 
--   **Class:** CSCI 409
+-   **Class:** CSCI 409 Fundamentals of Artificial Intelligence
 -   **Grade:** A
 -   **Language(s):** Python
 -   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
