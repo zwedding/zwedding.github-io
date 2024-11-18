@@ -24,13 +24,13 @@ g++ main.cpp MinimumOverlap.cpp -o
 
 The program parses the dataset and is able to find the minimum overlap with the help of the minOverlap function. This function is a recursive function that optimizes overlap by examining different combinations of sets and always keeping track of the smallest solution. 
 
-![screenshot](images/small30-timings.pdf)  
+![screenshot](pdf/small30-timings.pdf)  
 Fig 1. Timing for a small set
 
-![screenshot](images/medium30-timings.pdf)  
+![screenshot](pdf/medium30-timings.pdf)  
 Fig 2. Timing for a medium set
 
-![screenshot](images/large50-timings.pdf)  
+![screenshot](pdf/large50-timings.pdf)  
 Fig 3. Timing for a large set
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
