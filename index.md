@@ -19,7 +19,7 @@ Programming Projects
 ---
 ### [UDP Pinger | CSCI 332](project3)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 3 Thumbnail Name](images/UDPPingerPic.png)
 
 ---
 ### [Data Analysis and Visualization | CSCI 409](project4)
