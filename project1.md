@@ -1,12 +1,12 @@
 [Back to Portfolio](./)
 
-HTML Parser
+Tennis Simulator
 ===============
 
 -   **Class:** CSCI 325 Object-Oriented Programming
 -   **Grade:** B
 -   **Language(s):** Java
--   **Source Code Repository:** (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
