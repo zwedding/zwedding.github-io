@@ -1,47 +1,43 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+UDP Pinger
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+-   **Class:** CSCI 332
+-   **Grade:** A
+-   **Language(s):** Python
+-   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project simulates a UDP-based pinger with both a server and client. The client sends a series of packets to the server, and the server is responsible for receiving these packets and responding. A UDP socket is created, and the server is assigned a specific IP address and port number. Packet loss is then simulated by random numbers. This project involves basic concepts of UDP communication, random packet loss simulation, and server-client interaction in network programming
 
-## How to compile and run the program
-
-How to compile (if applicable) and run the project.
+## How to run the program
 
 ```bash
 cd ./project
-python setup.py
+python3 server.py
+python3 client.py
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
 Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+First, ensure that that server.py program is running before the client.py server is running. If this does not happen, the program will not work.
+
+The server.py program listens on the 127.0.0.1 IP address and 12000 port using a UDP socket. When the message from the client is recieved, the server generates a random number between 0 and 10 to simulate packet loss. If the number is less than 4, the server does not respond, thus "losing" the packet. If the random number is 4 or higher, the server sends the message back to the client.
+
+The client.py program communicates with the server to measure the round-trip time for packets sent over a network. The client sends a series of "ping" messages to the server and waits for a response.
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+Fig 1. The whole message
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+Fig 2. Dropped packet
 
 ![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
-
-## 3. Additional Considerations
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Fig 3. A packet that has not been dropped
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
