@@ -30,13 +30,13 @@ The server.py program listens on the 127.0.0.1 IP address and 12000 port using a
 
 The client.py program communicates with the server to measure the round-trip time for packets sent over a network. The client sends a series of "ping" messages to the server and waits for a response.
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/UDPPingerPic.png)  
 Fig 1. The whole message
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/UDPPingerFailPic.png)  
 Fig 2. Dropped packet
 
-![screenshot](images/dummy_thumbnail.jpg)  
+![screenshot](images/UDPPingerSuccessPic.png)  
 Fig 3. A packet that has not been dropped
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
