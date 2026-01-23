@@ -26,14 +26,17 @@ The program then uses regex to filter out a date, monkier, number of posts, and 
 
 Error checking has been put into place to ensure database entries and file openings have been done correctly.
 
-![screenshot](images/2020Registrations.png)  
-Fig 1. 2020 registrations
+![screenshot](images/CYBR-6150 Final1.png)  
+Fig 1. Running the program and searching a term
 
-![screenshot](images/MotorcycleProportions.png)  
-Fig 2. Motorcycle proportions
+![screenshot](images/CYBR-6150 Final2.png)  
+Fig 2. Program outputs the number of times a term is in the database
 
-![screenshot](images/VehicleTrends.png)  
-Fig 3. Vehicle trends
+![screenshot](images/CYBR-6150 Final4.png)  
+Fig 3. Accessing the database
+
+![screenshot](images/CYBR-6150 Final3.png)  
+Fig 4. Error checking
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
