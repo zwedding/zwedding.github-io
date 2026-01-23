@@ -28,7 +28,7 @@ Programming Projects
 
 ---
 
-Ethics Papers
+Papers
 -------------
 
 ### [Computer Architecture Ethics Paper](/pdf/Ethics Paper CA.pdf)
@@ -44,6 +44,11 @@ Ethics Papers
 ### [Survey of Scripting Ethics Paper](/pdf/Ethics Paper Scripting.pdf)
 
 -   **Class:** Survey of Scripting Languages
+-   **Grade:** A
+
+### [Intelligence Project](/pdf/Intelligence Studies Final Project.pdf)
+
+-   **Class:** Intelligence Studies
 -   **Grade:** A
 
 ---
