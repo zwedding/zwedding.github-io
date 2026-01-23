@@ -3,7 +3,7 @@
 title: Zachary Wedding # your name here
 logo: "/images/Head Shot.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br /> elements if you don't need line breaks)
-  This portfolio includes both my undergraduate and graduate level work<br />
+  This portfolio primarily features undergraduate level work, with select examples of graduate level work<br />
   <a href="pdf/Zachary_Wedding_Resume.pdf">View My Resume</a>
 repository: "zwedding/zwedding.github.io"
 github_username:  zwedding # update with your username
