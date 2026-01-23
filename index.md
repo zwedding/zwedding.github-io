@@ -27,6 +27,7 @@ Programming Projects
 ![Project 4 Thumbnail Name](images/CYBR-6150 Final1.jpg)
 
 ---
+
 Ethics Papers
 -------------
 
