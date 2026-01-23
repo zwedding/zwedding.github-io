@@ -3,22 +3,19 @@
 Data Analysis and Visualization
 ===============
 
--   **Class:** CSCI 409 Fundamentals of Artificial Intelligence
+-   **Class:** Programming for Investigators
 -   **Grade:** A
 -   **Language(s):** Python
 -   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-This project looks at data from three different angles. The data at hand is about vehicle registrations from 1900 to 2020. The data is separated by state and type of vehicle (auto, bus, truck, motorcycle). The angles that I decided to view the data from include the overall vehicle trends from 1900 to 2020, total vehicle registrations by state in 2020, and the proportion of motorcycle registrations by state from 2000 to 2020.
+This project parses data from multiple HTML files and exports the data into a database for easy use. After exporting the data into a database, the user is prompted to enter a search term. If this term is found within the database, it prints out the row in which the term was found. In addition to this, the number of times that the search term was found in the database is printed.
 
 ## How to run the program
 
 ```bash
-cd ./project
-python3 2020Registration.py
-python3 MotorcycleProportions.py
-python3 VehicleTrends.py
+python .\Wedding_Final_Assignment.py
 ```
 
 ## UI Design
