@@ -1,6 +1,6 @@
 [Back to Portfolio](./)
 
-Data Analysis and Visualization
+Data Parser
 ===============
 
 -   **Class:** Programming for Investigators
@@ -20,13 +20,11 @@ python .\Wedding_Final_Assignment.py
 
 ## UI Design
 
-The programs first import the necessary libraries (pandas and matplotlib). Next, the programs load the dataset at hand (Motor_Vehicle_Registrations_Dashboard_data.csv). After this, the programs start to individualize.
+The programs first import the necessary libraries (re, sqlite3, and os). Next, the program connects to the database and drops the database if it already exists.
 
-The 2020Registration.py program then filters only 2020 data, adds the total number of registrations for each state, and displays these numbers on a horizontal bar graph.
+The program then uses regex to filter out a date, monkier, number of posts, and content from the current post in the forum from the HTML files. These reset after each post. Once all values are filled, they are exported into the database. After all posts have been accounted for, the database is closed.
 
-The MotorcycleProportions.py program then filters only data from 2000 to 2020, calculates the total number of vehicle registrations by state, and then calculates the proportion of these registrations that are motorcycles. Finally, results are displayed on a horizontal bar graph.
-
-The VehicleTrends.py program then sums the total number of vehicle registrations by vehicle every year and plots this number on a line graph.
+Error checking has been put into place to ensure database entries and file openings have been done correctly.
 
 ![screenshot](images/2020Registrations.png)  
 Fig 1. 2020 registrations
