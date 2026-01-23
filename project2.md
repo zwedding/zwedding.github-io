@@ -3,7 +3,7 @@
 Overlap Coverage
 ===============
 
--   **Class:** CSCI 315 Data Structures
+-   **Class:** Data Structures
 -   **Grade:** C
 -   **Language(s):** C++
 -   **Source Code Repository:** (Please [email me](mailto:weddingzack@gmail.com?subject=GitHub%20Access) to request access.)
