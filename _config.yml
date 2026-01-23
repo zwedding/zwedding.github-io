@@ -3,10 +3,7 @@
 title: Zachary Wedding # your name here
 logo: "/images/Head Shot.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br /> elements if you don't need line breaks)
-  CSCI 496: Senior Portfolio<br />
-  In partial fulfillment of the requirements for the degree of
-  Bachelor of Science in Cybersecurity (class of 2025)
-  <br /><br />
+  This portfolio includes both my undergraduate and graduate level work<br />
   <a href="pdf/Zachary_Wedding_Resume.pdf">View My Resume</a>
 repository: "zwedding/zwedding.github.io"
 github_username:  zwedding # update with your username
