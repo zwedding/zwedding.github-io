@@ -24,7 +24,7 @@ Programming Projects
 ---
 ### [Data Parser](project4)
 
-![Project 4 Thumbnail Name](images/CYBR-6150 Final1.jpg)
+![Project 4 Thumbnail Name](images/CYBR_6150_Final_1.jpg)
 
 ---
 
