@@ -26,16 +26,16 @@ The program then uses regex to filter out a date, monkier, number of posts, and 
 
 Error checking has been put into place to ensure database entries and file openings have been done correctly.
 
-![screenshot](images/CYBR_6150_Final_1.png)  
+![screenshot](images/CYBR_6150_Final_1.jpg)  
 Fig 1. Running the program and searching a term
 
-![screenshot](images/CYBR_6150_Final_2.png)  
+![screenshot](images/CYBR_6150_Final_2.jpg)  
 Fig 2. Program outputs the number of times a term is in the database
 
-![screenshot](images/CYBR_6150_Final_4.png)  
+![screenshot](images/CYBR_6150_Final_4.jpg)  
 Fig 3. Accessing the database
 
-![screenshot](images/CYBR_6150_Final_3.png)  
+![screenshot](images/CYBR_6150_Final_3.jpg)  
 Fig 4. Error checking
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
